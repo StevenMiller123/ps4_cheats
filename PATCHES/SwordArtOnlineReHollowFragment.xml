@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <TitleID>
+        <ID>CUSA02560</ID>
+    </TitleID>
+    <Metadata Title="Sword Art Online Re: Hollow Fragment"
+              Name="Fix Crash"
+              Author="StevenMiller123"
+              PatchVer="1.0"
+              AppVer="01.00"
+              AppElf="eboot.bin">
+        <PatchList>
+            <Line Type="mask" Address="8B 50 0C 89 55 F0 3B" Value="9090908955f03b"/>
+        </PatchList>
+    </Metadata>
+</Patch>
