@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Patch>
+    <TitleID>
+        <ID>CUSA05033</ID>
+    </TitleID>
+    <Metadata Title="Sword Art Online Hollow Realization" Name="Fix Crash v1.00" Author="StevenMiller123" PatchVer="1.0" AppVer="01.00" AppElf="eboot.bin" isEnabled="true">
+        <PatchList>
+            <Line Type="mask" Address="8B 70 0C 89 75 F0" Value="9090908975F0"/>
+        </PatchList>
+    </Metadata>
+    <Metadata Title="Sword Art Online Hollow Realization" Name="Fix Crash v3.20" Author="StevenMiller123" PatchVer="1.0" AppVer="03.20" AppElf="eboot.bin">
+        <PatchList>
+            <Line Type="mask" Address="4C 63 78 0C BB FF FF FF FF" Value="90909090BBFFFFFFFF"/>
+        </PatchList>
+    </Metadata>
+</Patch>
