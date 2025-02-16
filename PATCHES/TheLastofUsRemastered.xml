@@ -2,6 +2,7 @@
 <Patch>
     <TitleID>
         <ID>CUSA00552</ID>
+        <ID>CUSA00557</ID>
     </TitleID>
     <Metadata Title="The Last of Us™ Remastered"
               Name="Disable Hang Detection"
