@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Patch>
+    <TitleID>
+        <ID>CUSA00552</ID>
+    </TitleID>
+    <Metadata Title="The Last of Us™ Remastered"
+              Name="Disable Hang Detection"
+              Note="This disables an internal check that crashes the game if a frame takes more than 2 seconds."
+              Author="StevenMiller123"
+              PatchVer="1.0"
+              AppVer="01.00"
+              AppElf="eboot.bin">
+        <PatchList>
+            <Line Type="bytes" Address="0xD92862" Value="9090"/>
+        </PatchList>
+    </Metadata>
+    <Metadata Title="The Last of Us™ Remastered"
+              Name="Disable Hang Detection"
+              Note="This disables an internal check that crashes the game if a frame takes more than 2 seconds."
+              Author="StevenMiller123"
+              PatchVer="1.0"
+              AppVer="01.11"
+              AppElf="eboot.bin">
+        <PatchList>
+            <Line Type="bytes" Address="0xF3D88F" Value="9090"/>
+        </PatchList>
+    </Metadata>
+</Patch>
